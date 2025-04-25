@@ -1,0 +1,2 @@
+# jahon.com
+jahon.gom
