@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAHON - Ширкати шумо</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      color: #333;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #00796b;
+      margin-bottom: 20px;
+    }
+
+    .products {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 260px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    a {
+      color: #00796b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>JAHON</h1>
+  <p>Кори одамон ва бизнесменҳо</p>
+</header>
+
+<section>
+  <h2>Маҳсулот ва Хизматҳо</h2>
+  <div class="products">
+    <div class="product">
+      <h3>Машварат барои бизнес</h3>
+      <p>Кӯмак ба соҳибкорон дар оғози кори худ.</p>
+    </div>
+    <div class="product">
+      <h3>Плансозии тиҷорат</h3>
+      <p>Барномаҳои стратегӣ ва маслиҳат барои рушди тиҷорат.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Дар бораи мо</h2>
+  <p style="text-align:center;">
+    JAHON — ширкати нав ва ҷасур барои дастгирии одамон ва бизнесменҳои тоҷик. Мо бо муҳаббат ва масъулият кор мекунем.
+  </p>
+</section>
+
+<section>
+  <h2>Тамос</h2>
+  <p style="text-align:center;">
+    📞 Телефон: +992 XXXXXXXX <br>
+    ✉️ Имейл: example@email.com <br>
+    📱 <a href="https://wa.me/992XXXXXXXXX" target="_blank">Паём дар WhatsApp</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 JAHON. Ҳама ҳуқуқ маҳфуз аст.</p>
+</footer>
+
+</body>
+</html>
